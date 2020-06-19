@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.receiptstoringapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TaxPayerSettings"></activity>
+        <activity android:name=".AccountantLoginPage" />
+        <activity android:name=".TaxPayerSortReceipt" />
+        <activity android:name=".TaxPayerInputReceipt" />
+        <activity android:name=".TaxPayerOptions" />
+        <activity android:name=".TaxPayerRegistration" />
+        <activity android:name=".TaxPayerLogin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

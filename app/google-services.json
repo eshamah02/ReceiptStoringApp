@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "848930565766",
+    "firebase_url": "https://logindemo-a8574.firebaseio.com",
+    "project_id": "logindemo-a8574",
+    "storage_bucket": "logindemo-a8574.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848930565766:android:1cca5e730f2abfc16c6b07",
+        "android_client_info": {
+          "package_name": "com.example.receiptstoringapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848930565766-ko9r8c6ma1lvh4vlruc6jboh8hemg5jd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBexyU0jnAcjqIS3eZsTF4gf--f_wJlSV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848930565766-ko9r8c6ma1lvh4vlruc6jboh8hemg5jd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

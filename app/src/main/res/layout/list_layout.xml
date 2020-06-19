@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPurpose"
+        android:text="purpose"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPlace"
+        android:text="place"
+        android:textSize="17sp"
+        android:layout_below="@+id/receiptPurpose"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDate"
+        android:text="date"
+        android:textSize="17sp"
+        android:layout_below="@+id/receiptPlace"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewAmount"
+        android:text="amount"
+        android:textSize="17sp"
+        android:layout_below="@+id/receiptDate"/>
+
+
+</RelativeLayout>
